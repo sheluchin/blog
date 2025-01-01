@@ -27,6 +27,18 @@ route using React's `componentDidMount` lifecycle method.
 I continued on with the approach I was trying and found something that works, so
 I decided to review and document my solution here.
 
+Here are the namespace aliases and symbol references from below:
+
+```clojure
+[cljs.core :refer [js->clj]]
+[com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+[com.fulcrologic.fulcro.dom :as dom :refer [div]]
+[com.fulcrologic.fulcro.dom.html-entities :as ent]
+[com.fulcrologic.rad.report :as report]
+[com.fulcrologic.rad.report-options :as ro]
+[com.fulcrologic.semantic-ui.factories :as sui]
+```
+
 ## Objective: lazy load images in a RAD report
 
 I'm using Fulcro [RAD][] for a number of projects, so it's always nice to learn
