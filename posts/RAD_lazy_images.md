@@ -182,9 +182,9 @@ and the placeholders are replaced with the real images as they come into view.
 
 # Wrapping Up
 
-All we did here was make use use of the `visibility` behavior from Semantic-UI
-in order to dynamically load images when their parent rows in the RAD report
-came into view. The semantic-ui-wrapper library for Fulcro provides convenience
+All we did here was make use of the `visibility` behavior from Semantic-UI in
+order to dynamically load images when their parent rows in the RAD report came
+into view. The semantic-ui-wrapper library for Fulcro provides convenience
 wrappers for most of the Semantic-UI stuff to make using it from Clojurescript
 easy and idiomatic. There was a little bit of experimentation required in order
 to get the result to feel right, but once we know about
