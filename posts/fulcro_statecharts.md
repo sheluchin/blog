@@ -25,7 +25,7 @@ transition to one of the two states. My implementation seemed too complex for
 such a simple idea, so I turned to asking for input in a [Slack
 thread][Original discussion link]. I received some great advice about
 simplifying the transition, a pragmatic naming convention for element ids and
-some rational for why my original approach isn't the right way to go about it.
+some rationale for why my original approach isn't the right way to go about it.
 
 A final note: while the library is by Fulcrologic and includes Fulcro
 integration helpers, you can also use it without Fulcro. It's a fairly small
