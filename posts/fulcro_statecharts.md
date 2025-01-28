@@ -81,7 +81,7 @@ Lastly, the Statecharts library is based on SCXML structure and semantics, but
 deviates from the standard slightly when it comes to "executable content". In
 short - and covered in more detail below - Statecharts leans into making the
 ideas and constructs of SCXML more idiomatic in Clojure(script), while still
-making an effort to be maintain compatibility with the standard. This approach
+making an effort to maintain compatibility with the standard. This approach
 allows Statecharts to make the most of the work that has gone into the standard
 and associated tooling.
 
