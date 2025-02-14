@@ -31,7 +31,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          pattern: public-artifact-*  # Use pattern matching to download all relevant artifacts
-          merge-multiple: true        # Merge all artifacts into a single directory
+          name: public-artifact-ubuntu-latest  # Explicitly define the artifact name
+          path: public/
       - uses: actions/deploy-pages@v2
         id: deployment
