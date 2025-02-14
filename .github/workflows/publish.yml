@@ -17,7 +17,7 @@ jobs:
       - run: bb quickblog render
       - uses: actions/upload-artifact@v4
         with:
-          name: public-artifact
+          name: public-artifact-${{ runner.os }}  # Use dynamic naming based on the runner OS
           path: public/
   deploy:
     needs: build
@@ -29,5 +29,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: public-artifact-*  # Use pattern matching to download all relevant artifacts
+          merge-multiple: true        # Merge all artifacts into a single directory
       - uses: actions/deploy-pages@v2
         id: deployment
