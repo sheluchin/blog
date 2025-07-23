@@ -2,6 +2,8 @@ Title: Introducing seqfind.com
 Date: 2025-07-23
 Tags: clojure, seqfind, projects, announcements
 Description: Discover how popular Clojure(Script) libraries are used in the wild. seqfind.com lets you explore real-world code examples to learn faster and find common usage patterns.
+Image: assets/clj_map_usage.png
+Image-Alt: Screenshot of seqfind.com showing usage examples for the clojure.core/map function.
 
 I'm officially launching [seqfind.com][] -- the Clojure(script) code
 explorer.
